@@ -1,0 +1,21 @@
+core   0: 0x8000c824 (0x00078863) beqz    a5, pc + 16
+core   0: 0x8000c828 (0xfee786e3) beq     a5, a4, pc - 20
+core   0: 0x8000c82c (0x40e78533) sub     a0, a5, a4
+core   0: 0x8000c830 (0x00008067) ret
+core   0: 0x80004b4c (0x02050863) beqz    a0, pc + 48
+core   0: 0x80004b50 (0x0000a597) auipc   a1, 0xa
+core   0: 0x80004b54 (0x2c858593) addi    a1, a1, 712
+core   0: 0x80004b58 (0x00090513) mv      a0, s2
+core   0: 0x80004b5c (0x4b9070ef) jal     pc + 0x7cb8
+core   0: 0x8000c814 (0x00054783) lbu     a5, 0(a0)
+core   0: 0x8000c818 (0x00158593) addi    a1, a1, 1
+core   0: 0x8000c81c (0x00150513) addi    a0, a0, 1
+core   0: 0x8000c820 (0xfff5c703) lbu     a4, -1(a1)
+core   0: 0x8000c824 (0x00078863) beqz    a5, pc + 16
+core   0: 0x8000c828 (0xfee786e3) beq     a5, a4, pc - 20
+core   0: 0x8000c82c (0x40e78533) sub     a0, a5, a4
+core   0: 0x8000c830 (0x00008067) ret
+core   0: 0x80004b60 (0x04050863) beqz    a0, pc + 80
+core   0: 0x80004b64 (0x00c12083) lw      ra, 12(sp)
+core   0: 0x80004b68 (0x00812403) lw      s0, 8(sp)
+
