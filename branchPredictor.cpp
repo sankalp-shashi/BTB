@@ -237,7 +237,7 @@ string _2bitPred=_2bit(mc,pc);
 
 string nextpc = getPC(trace);
 //nextpc.erase(0,2);
-cout << alwaysTakenPred + " " + alwaysNotTakenPred + " " + _1bitPred + " " + _2bitPred + " " + nextpc.substr(2,8) << endl;
+//cout << alwaysTakenPred + " " + alwaysNotTakenPred + " " + _1bitPred + " " + _2bitPred + " " + nextpc.substr(2,8) << endl;
 if(alwaysNotTakenPred==nextpc.substr(2,8))alwaysNotTakencount++;
 if(alwaysTakenPred==nextpc.substr(2,8))alwaysTakencount++;
 if(_1bitPred==nextpc.substr(2,8))oneBitcount++;
