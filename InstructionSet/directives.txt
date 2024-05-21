@@ -1,0 +1,11 @@
+text -1
+data -1
+word 4
+byte 1
+half 2
+dword 8
+double 8
+asciiz -1
+asciz -1
+string -1
+end 0
